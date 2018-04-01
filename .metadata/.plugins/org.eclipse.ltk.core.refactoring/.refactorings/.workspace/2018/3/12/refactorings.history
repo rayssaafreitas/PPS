@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;baralho-master&apos; to &apos;baralho-Polimorfismo&apos;" description="Rename resource &apos;baralho-master&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/baralho-master" name="baralho-Polimorfismo" stamp="1521840973508" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;baralho-Polimorfismo&apos; to &apos;Baralho-Polimorfismo&apos;" description="Rename resource &apos;baralho-Polimorfismo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/baralho-Polimorfismo" name="Baralho-Polimorfismo" stamp="1521841000202" updateReferences="true"/>
+</session>

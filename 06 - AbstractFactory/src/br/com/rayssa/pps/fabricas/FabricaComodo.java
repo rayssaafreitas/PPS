@@ -1,13 +1,13 @@
-package br.com.jaenia.pps.fabricas;
+package br.com.rayssa.pps.fabricas;
 
 import java.util.List;
 
-import br.com.jaenia.pps.produtosabstratos.Louca;
-import br.com.jaenia.pps.produtosabstratos.Metal;
-import br.com.jaenia.pps.produtosabstratos.Parede;
-import br.com.jaenia.pps.produtosabstratos.Piso;
-import br.com.jaenia.pps.produtosabstratos.Porta;
-import br.com.jaenia.pps.produtosabstratos.Tinta;
+import br.com.rayssa.pps.produtosabstratos.Louca;
+import br.com.rayssa.pps.produtosabstratos.Metal;
+import br.com.rayssa.pps.produtosabstratos.Parede;
+import br.com.rayssa.pps.produtosabstratos.Piso;
+import br.com.rayssa.pps.produtosabstratos.Porta;
+import br.com.rayssa.pps.produtosabstratos.Tinta;
 
 public abstract class FabricaComodo {
 	

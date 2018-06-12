@@ -1,17 +1,17 @@
-package br.com.jaenia.pps.fabricas;
+package br.com.rayssa.pps.fabricas;
 
-import br.com.jaenia.pps.produtoconcretos.loucas.LoucaElizabeth;
-import br.com.jaenia.pps.produtoconcretos.metais.MetalAluminio;
-import br.com.jaenia.pps.produtosabstratos.Louca;
-import br.com.jaenia.pps.produtosabstratos.Metal;
-import br.com.jaenia.pps.produtosabstratos.Parede;
-import br.com.jaenia.pps.produtosabstratos.Piso;
-import br.com.jaenia.pps.produtosabstratos.Porta;
-import br.com.jaenia.pps.produtosabstratos.Tinta;
-import br.com.jaenia.pps.produtosconcretos.paredes.ParedeAlvenaria;
-import br.com.jaenia.pps.produtosconcretos.pisos.PisoCeramicaEsmaltada;
-import br.com.jaenia.pps.produtosconcretos.portas.PortaMadeira;
-import br.com.jaenia.pps.produtosconcretos.tintas.TintaAcrilica;
+import br.com.rayssa.pps.produtoconcretos.loucas.LoucaElizabeth;
+import br.com.rayssa.pps.produtoconcretos.metais.MetalAluminio;
+import br.com.rayssa.pps.produtosabstratos.Louca;
+import br.com.rayssa.pps.produtosabstratos.Metal;
+import br.com.rayssa.pps.produtosabstratos.Parede;
+import br.com.rayssa.pps.produtosabstratos.Piso;
+import br.com.rayssa.pps.produtosabstratos.Porta;
+import br.com.rayssa.pps.produtosabstratos.Tinta;
+import br.com.rayssa.pps.produtosconcretos.paredes.ParedeAlvenaria;
+import br.com.rayssa.pps.produtosconcretos.pisos.PisoCeramicaEsmaltada;
+import br.com.rayssa.pps.produtosconcretos.portas.PortaMadeira;
+import br.com.rayssa.pps.produtosconcretos.tintas.TintaAcrilica;
 
 public class FabComodoCasaConforto extends FabricaComodo {
 

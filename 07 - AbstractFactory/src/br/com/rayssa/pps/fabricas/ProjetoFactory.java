@@ -1,6 +1,6 @@
-package br.com.jaenia.pps.fabricas;
+package br.com.rayssa.pps.fabricas;
 
-import br.com.jaenia.pps.produtosabstratos.Comodo;
+import br.com.rayssa.pps.produtosabstratos.Comodo;
 
 public class ProjetoFactory {
 	public static Comodo criarComodo(String nome, String tipo, int paredes, int portas, int metais, int loucas){

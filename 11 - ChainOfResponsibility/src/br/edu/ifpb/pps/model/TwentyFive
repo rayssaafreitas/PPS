@@ -1,0 +1,23 @@
+package br.edu.ifpb.pps.model;
+
+public class TwentyFive extends Coin
+{
+  
+  public BigDecimal recognize(Coin coin)
+  {
+    if(Coin.TWENTY_FIVE_PENCE.equals(coin))
+    {
+      System.out.println("Reconhecido R$ 0,25");
+      
+      return new BigDecimal(0.25);
+    }
+    else if(successor != null)
+    {
+      return successor.recognize(coin);
+    }
+    else
+    {
+      return new BigDecimal(0.0);
+    }
+  }
+}

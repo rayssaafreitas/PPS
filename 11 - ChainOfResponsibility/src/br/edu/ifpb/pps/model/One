@@ -1,0 +1,23 @@
+package br.edu.ifpb.pps.model;
+
+public class One extends Coin
+{
+  
+  public BigDecimal recognize(Coin coin)
+  {
+    if(Coin.ONE_PENCE.equals(coin))
+    {
+      System.out.println("Reconhecido por R$ 0,01");
+      
+      return new BigDecimal(0.01);
+    }
+    else if(successor != null)
+    {
+      return successor.recognize(coin);
+    }
+    else
+    {
+      return new BigDecimal(0.0);
+    }
+  }
+}

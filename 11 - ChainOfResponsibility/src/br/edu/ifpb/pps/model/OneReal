@@ -1,0 +1,23 @@
+package br.edu.ifpb.pps.model;
+
+public class OnePound extends Coin
+{
+  
+  public BigDecimal recognize(Coin coin)
+  {
+    if(Coin.ONE_REAL.equals(coin))
+    {
+      System.out.println("Reconhecido R$ 1,00");
+      
+      return new BigDecimal(1.0);
+    }
+    else if(successor != null)
+    {
+      return successor.recognize(coin);
+    }
+    else
+    {
+      return new BigDecimal(0.0);
+    }
+  }
+}

@@ -1,0 +1,11 @@
+package br.edu.ifpb.pps.model;
+
+public enum Coin
+{
+  ONE_PENCE,         // R$ 0,01
+  FIVE_PENCE,        // R$ 0,05
+  TEN_PENCE,         // R$ 0,10
+  TWENTY_FIVE_PENCE, // R$ 0,25
+  FIFTY_PENCE,       // R$ 0,50
+  ONE_REAL;         // R$ 1,00
+}

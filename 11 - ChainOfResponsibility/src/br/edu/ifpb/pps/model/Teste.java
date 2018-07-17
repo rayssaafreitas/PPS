@@ -7,15 +7,11 @@ import java.math.BigDecimal;
  */
 public class Texte
 {
-  /**
-   * Metodo principal da linguagem de programacao Java
-   * 
-   * @param args argumentos da linha de comando (nao utilizado)
-   */
+
   public static void main(String[] args)
   {
     // Preço a ser cobrado: R$ 2,02
-    ATM atm = new ATM(new BigDecimal(2.02));
+    ATM atm = new ATM(new BigDecimal(4.45));
     
     // Reconhecido R$ 1,00
     // Falta R$ 1,02

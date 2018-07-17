@@ -20,20 +20,20 @@ public class MaquinaChain{
     
     NumberFormat nf = NumberFormat.getInstance(new Locale("pt", "BR"));
     
-    System.out.println("Preço a ser cobrado: R$ " + nf.format(price));
+    System.out.println("PreÃ§o a ser cobrado: R$ " + nf.format(price));
     
     slot = new OnePenceHandler();
     Coin fivePence = new Five();
     Coin tenPence = new Ten();
     Coin twentyFivePence = new TwentyFive();
     Coin fiftyPence = new Fifty();
-    Coin onePound = new OneReal();
+    Coin oneReal = new OneReal();
     
     slot.setSuccessor(fivePence);
     fivePence.setSuccessor(tenPence);
     tenPence.setSuccessor(twentyFivePence);
     twentyFivePence.setSuccessor(fiftyPence);
-    fiftyPence.setSuccessor(onePound);
+    fiftyPence.setSuccessor(oneReal);
   }
   
   /**
@@ -53,12 +53,12 @@ public class MaquinaChain{
     }
     else if(total.doubleValue() == price.doubleValue())
     {
-      System.out.println("Obrigado pela sua preferência!");
+      System.out.println("Obrigado pela sua preferÃªncia!");
     }
     else if(total.doubleValue() > price.doubleValue())
     {
-      System.out.println("Obrigado pela sua preferência!");
-      System.out.println("Seu troco á de R$ " + nf.format(total.subtract(price)));
+      System.out.println("Obrigado pela sua preferÃªncia!");
+      System.out.println("Seu troco Ã¡ de R$ " + nf.format(total.subtract(price)));
     }
   }
 }
